@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<!--utf-8-->
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />-->
+    <title>Login</title>
+    <!--<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"  charset="utf-8"/>-->
+    <style type="text/css">
+        @import url(css/font-awesome.min.css);/*font-awesome */
+        @import url(css/login.bootstrap.min.css);
+        @import url(css/login.css);
+    </style>
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js?ver=2021.4.25"></script>
+    <!--bootstrap-->
+    <script type="text/javascript" src="js/bootstrap.min.js?ver=2021.4.25"></script>
+    <script type="text/javascript" src="js/jquery.validate.js?ver=2021.4.25"></script>
+    <!--cookie's js-->
+    <script type="text/javascript" src="js/jquery.cookie.min.js?ver=2021.4.25"></script> 
+    <!--common js-->
+    <script type="text/javascript" src="js/ip.js?ver=2021.4.25"></script>
+    <script type="text/javascript" src="js/base64.js?ver=2021.4.25"></script> 
+    <!--import js-->
+    <script type="text/javascript" src="js/index.js?ver=2021.4.25"></script> 
+    
+    <link href="js/toastr.min.css" rel="stylesheet">
+    <script src="js/toastr.min.js" type="text/javascript"></script>
+    <style>
+		#header_title_one{
+			font-style:italic;
+			margin-left: 10%; 
+			width: 90%;
+			text-align: left;
+			font-family: 方正汉真广标-标准;
+			font-size: 55px; 
+			color: #844f4f;
+			font-weight: 600;
+			}
+    </style>
+</head>
+<body>
+    <!--logo图标-->
+    <div class="header" style="height: 100px;">
+    </div>
+    <div class="container " id="grad_id" style="background: #6a6ac3;">
+        <!--登陆-->
+        <img src="images/login/image_01.png" class="image_01 hidden-xs" /> 
+        <div class="pull-right form row ">
+            <form class="form-horizontal " id="login_form">
+                <h3><span class="span_login">LOGIN</span></h3>
+                <div class="col-sm-12 col-md-12 ">
+                    <div class="form-group">
+                        <i class="fa-lg"><img src='images/login/icon_user_n.png' id="username_img_id" /></i>
+                        <input class="form-control " type="text" placeholder="username" name="username" id="username_id" autofocus="autofocus" />
+                        <img src='images/login/btn_clean_n.png' id="btn_clean_id" class="pull-right" />
+                    </div>
+                    <div class="form-group">
+                        <i class=" fa-lg"><img src='images/login/icon_password_n.png' id="password_img_id" /></i>
+                        <input class="form-control required" type="password" placeholder="Password" name="password" id="password_id"  />
+                    </div>
+                    <div class="form-group">
+                        <div class="pull-left" id="remember_password_id">
+                            <img src='images/login/radio_n.png' id="remember_password_img_id" />
+                        </div>
+                        <input type="text" name="remember" id="remember_password_input_id" value="Remember Password" />
+                        <div class="pull-right" id="remember_password_id" style="margin-right: 15px; padding-top: 10px;">
+<!--                            	<a href='register.html'> Register </a>-->
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success form-control " id="login_ok" value="Log in " />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div>
+    </div>
+</body> 
+</html>
+
+

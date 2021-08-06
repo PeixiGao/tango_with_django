@@ -1,0 +1,156 @@
+	.row {
+		margin-right: 0px;
+	}
+	.menu_collapse{
+		margin-top: 20px;
+		background-color: #f1f2f538; 
+		
+	}
+	body{
+        font-size: 15px;
+        mix-width: 1340px;
+        width:expression(document.body.clientWidth < 1340? "1340px": "auto" ); 
+    }
+  	.navbar-inverse{
+	  	background-color: #0a56c5;
+	  	margin-bottom: 0px; 
+	}
+  	.content_backgroud{
+	  	border-left: solid #dee2e8;
+	  	background-color: #f7f8fa;
+	  	background: #c1c7ea24;
+  	}
+	.file {
+	    position: relative;
+	    display: inline-block;
+	    background: #D0EEFF;
+	    border: 1px solid #99D3F5; 
+	    
+	    padding: 4px 12px; 
+	    overflow: hidden;
+	    color: #1E88C7;
+	    text-decoration: none;
+	    text-indent: 0;
+	    line-height: 20px;
+	}
+	.file input {
+	    position: absolute;
+	    font-size: 100px;
+	    right: 0;
+	    top: 0;
+	    opacity: 0;
+	}
+	.file:hover {
+	    background: #AADFFD;
+	    border-color: #78C3F3;
+	    color: #004974;
+	    text-decoration: none;
+	} 
+	.collapse_hao{
+		margin-right: 10px;
+		margin-top: 9px;
+	}
+	/*所有分页的页数显示的样式*/
+	.pagination>li>a{
+		float: none;
+	}
+
+    .ipt-input{
+        height: 31px;
+        width: 100%;
+        border: 1px solid #dcd4d4;
+        border-radius: 4px;
+    }
+    .ipt{
+        height: 31px;
+        width: 194px; 
+    }
+    .all_reset{
+    margin-top: 30px;
+    }
+    
+	.image_logo1{
+		margin-left: 30px;
+		margin-top: 10px;
+		font-size: 30px;
+		color: white;
+	}
+	
+    .theme-signin li strong {
+        width: 85px;
+    }
+    .xla_k{
+         border: solid 1px #d2d2d2;
+         border-left-color: #ccc;
+         border-top-color: #ccc;
+         border-radius: 2px;
+         box-shadow: inset 0 1px 0 #f8f8f8;
+         background-color: #fff;
+         padding: 4px 6px;
+         height: 31px;
+         line-height: 31px;
+         color: #555;
+         width: 194px;
+         vertical-align: baseline;
+    }
+    .theme-signin li input{
+        margin-left: 20px;
+    }
+    .theme-signin li select{
+        margin-left: 20px;
+    }
+    #calloff{
+        width:65px;
+        border: 1px solid #ddd;
+        color: black;
+        background-color: white;
+        background:white;
+    }
+    .error{
+        color:red;
+    }
+    .theme-popover{
+        top:40%;
+    }
+    .closes{
+        left:190px;
+        background:white;
+        color: black;
+        border: solid 1px #dddddd;
+    }
+    .add_user_information{
+        float: left;
+        width: 100%;
+        text-align: left;
+        line-height: 32px;
+    }
+    .theme-poptit{
+        background: #ecedf7;
+    } 
+    .active{
+        color: blue;
+        width: 100px;
+        font-size: 15px;
+        border-top-color: #0a56c5;
+        border-top: solid;
+    }
+    .search-logo{/*搜索的logo*/
+    	width: 20px;
+    	position: relative;  
+    	left:10px; 
+    	top: 23px;
+    }
+	.search-input {
+		width:100%;
+		height: 25px;
+		border-color: #cfd8ec;
+		border-radius:20px;
+		padding-left: 25px;
+		margin-top: 1px; 
+	}
+	.search_type{
+		width:80px; 
+		margin-left: 20px;  
+		margin-bottom: 7px; 
+		margin-top: 17px;
+	}

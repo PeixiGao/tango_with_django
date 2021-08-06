@@ -1,0 +1,126 @@
+<!-- 导航栏部分 -->
+<div class="container-fluid"  >
+    <div class="navbar-header" >
+        <!--<div class="image_logo1">
+                       <img style="width:50px" src='../images/logo.jpg' / >&nbsp;&nbsp;&nbsp;&nbsp;大学学生宿舍管理系统
+        </div>-->
+    </div>
+    <ul class="nav navbar-nav nav-stacked navbar-right" style="margin-right: 10px;">
+        <!--<li>
+            <a href="javascript:;" id="btn_news_id">
+                <span class="glyphicon " ><img src="../images/main/btn_news_n.png" style="width: 33px;height: 33px;"/></span>
+                <i class="badge" style="background-color: red;border-radius:1px; ">7</i>
+             </a>
+        </li>-->
+        <!--<li>-->
+            <!--<a href="javascript:;" id="btn_user_id">-->
+                <!--<span class="glyphicon "></span>-->
+
+            <!--</a>-->
+        <!--</li>-->
+        <li>
+            <a href="javascript:;" data-toggle="dropdown" style="color: white;background-color: #0956c5; ">
+                <!--<img class="img-circle" src="user_photo.png" width="30" height="30"/>-->
+                <img src="../images/main/btn_user_n.png" style="width: 35px;height: 35px;"/>
+                <small>欢迎</small>
+                <small class="user_admin" >admin</small>
+                <span class="caret"></span>
+            </a>
+            <ul class="nav nav-pills nav-stacked dropdown-menu">
+                <li class="active" style="width: 100%;">
+                    <a href="javascript:;">
+                        <span class="glyphicon glyphicon-cog"></span>  设置
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="javascript:;" id="btn_move_id">
+                        <span class="glyphicon glyphicon-move"></span>  全屏
+                    </a>
+                </li>
+                <!--<li class="divider"></li>-->
+                <!--<li>
+                    <a href="javascript:;" id="theme-compileUser_id">
+                        <span class="glyphicon glyphicon-user theme-compileUser"></span>  账户资料
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                    <a href="javascript:;" id="theme-compilePwd_id">
+                        <span class="glyphicon glyphicon-lock theme-compileUser"></span>  修改密码
+                    </a>
+                </li>-->
+                <li class="divider"></li>
+                <li>
+                    <a href="javascript:;" id="btn_exit_id">
+                        <span class="glyphicon glyphicon-off"></span>  退出
+                    </a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</div> 
+<div class="theme-popover" style="height: 450px;" id="user_message_id">
+     <div class="theme-poptit" >
+	    <a href="javascript:;" title="关闭" class="close closes" style="color: black;"><img width="25px;" src="../images/main/btn_close_h.png" /></a>
+	    <h3>账户资料</h3>
+	   <div id="error" class="error"></div>
+	    </div>
+	    <div class="theme-popbod dform">
+	        <form class="theme-signin"  action="" method="post" >
+		        <ol style="position: inherit;"> 
+		            <li style="margin-bottom: 5px;"><strong style="width:100px;">用户名:</strong ><span style="line-height: 32px;margin-left: 20px; "id="username_message"> &nbsp;</span></li>
+		            <li style="margin-bottom: 5px;"><strong style="width:100px;">用户昵称:</strong ><input class="ipt " style="display: none;" id="edit_NickName_message" type="text"  name="edit_NickName_message" placeholder="请输入昵称" value=""   /><span style="line-height: 32px;margin-left: 20px;" id="NickName_message">&nbsp;</span></li>
+		            <li style="margin-bottom: 5px;"><strong style="width:100px;">用户邮箱:</strong ><input class="ipt " style="display: none;" id="edit_userEmail_message" type="text"  name="edit_userEmail_message" placeholder="请输入邮箱" value=""   /><span style="line-height: 32px;margin-left: 20px;" id="userEmail_message"> &nbsp;</span></li>
+		            <li style="margin-bottom: 5px;"><strong style="width:100px;">是否在线:</strong >
+		            	<select  id="edit_is_active_message" style="display: none;" class="xla_k">
+                            <option value="true">是</option>
+                            <option value="false">否</option>
+                        </select>
+	                    <span style="line-height: 32px;margin-left: 20px; "id="is_active_message"> &nbsp;</span></li>
+	                <li style="margin-bottom: 5px;"><strong style="width:100px;">后台返回语言:</strong >
+		            	<select  id="edit_language_message"  style="display: none;"  class="xla_k">
+                            <option value="en">英文</option>
+                            <option value="cn">中文</option>
+                        </select>
+	                    <span style="line-height: 32px;margin-left: 20px; "id="language_message"> &nbsp;</span></li>
+		            <li style="margin-bottom: 5px;"><strong style="width:100px;">是否激活:</strong ><span style="line-height: 32px;margin-left: 20px;" id="user_isValid_message"> &nbsp;</span></li> 
+		            <li style="margin-bottom: 5px;"><strong style="width:100px;">加入时间:</strong ><span style="line-height: 32px;margin-left: 20px; "id="data_joined_message"> &nbsp;</span></li>
+		            <li style="margin-bottom: 5px;"><strong style="width:100px;">最后登录时间:</strong ><span style="line-height: 32px;margin-left: 20px;" id="last_login_message"> &nbsp;</span></li> 
+		            <br>
+		            <input class="btn btn-primary" style="display: none;left:50px" id="save_user_message"  type="button" title="保存" value=" 保存 " />
+		            <input class="btn btn-primary"  id="edit_user_message"  type="button" title="编辑" value="编辑 " style="left:50px "/> 
+		            <input class="btn btn-primary closes" type="button" title="取消"  name="submit" value=" 取消 " />
+		        </ol> 
+		        <div style="display: block; position:relative; left: 330px; top: -312px;" class="float_layer" id="miaov_float_layer">
+				  	<div class="content"><a href="javascript:;"><img src="../images/404/jiazaizhong.jpg"  onerror="javascript:this.src='../images/404/u=eroor404.jpg';" id="head_portrait" height="130px;" width="130px;" style=" border-radius:65px;" ></a></div>
+				  	<div class="text-center" id="head_portrait_text" style="display:none; width: 130px; height: 130px;color: red;">
+				  		<a href="javascript:;" class="file" style="color:red; " title="修改图片"  onchange="c()">修改图片
+						    <input type="file" id="file_head_portrait" name="file_head_portrait" > 
+						</a>
+				  	</div>
+				</div>
+	        </form>
+	     </div>
+</div>
+<div class="theme-popover-mask" id="user_message"></div> 
+<div class="theme-popover" style="height: 400px;" id="user_pwdmessage_id">
+     <div class="theme-poptit" >
+	    <a href="javascript:;" title="关闭" class="close closes" style="color: black;"><img width="25px;" src="../images/main/btn_close_h.png" /></a>
+	    <h3>修改密码</h3>
+	    <div class="error" id="error"></div> 
+	    </div>
+	    <div class="theme-popbod dform">
+	        <form class="theme-signin form-horizontal "   id="user_pwd_form" method="post" >
+		        <ol>
+		            <li><strong>旧密码 </strong><input class="ipt " id="" type="password"  name="edit_userPwd" placeholder="请输入旧密码" value="" size="20" /></li>
+                    <li><strong>新密码 </strong><input class="ipt" type="password" id="edit_newUserPwd" name="edit_newUserPwd" placeholder="请输入新密码" value="" size="20" /></li>
+                    <li><strong>确认密码</strong><input class="ipt" type="password"  placeholder="请输入再次确认密码" name="edit_rnewUserPwd" value="" size="20" /></li>
+                    <br>
+		            <input class="btn btn-primary"  id="edit_pwd"  type="button" title="保存" value=" 保存 " style="left:50px "/>
+	                <input class="btn btn-primary closes" type="button" title="取消"  name="submit" value=" 取消 " />
+		        </ol>
+	        </form>
+	     </div>
+</div>
+<div class="theme-popover-mask" id="user_pwdmessage"></div>  

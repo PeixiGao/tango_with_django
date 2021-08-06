@@ -1,0 +1,184 @@
+    body{
+        background-size:cover;
+        font-size: 16px;
+    }
+    /*background: url(../img/2.jpg) no-repeat;*/
+    .form{
+    	
+        background: rgba(255,255,255,1);
+        margin:50px auto;
+    }
+    @media screen and (min-width:600px){
+        .form{
+            width:450px;
+            margin-right: 10%;
+			margin-top: 4%;
+			height: 500px;
+        }
+    }
+    #btn_clean_id{
+		display: none;
+		width: 30px; 
+		position:absolute;
+		left:370px; 
+		top:40px; 
+	}
+    #login_form{
+        display: block;
+    }
+    .fa{
+        display: inline-block;
+        top: 27px;
+        left: 6px;
+        position: relative;
+        color: #ccc;
+    }
+    input[type="text"],input[type="password"]{
+        padding-left:48px;
+    }
+     .form-horizontal{
+         padding:20px;
+      }
+    .error{
+        color:red;
+    }
+    #grad_id {
+    	/*background:#0a56c5;
+        background: -webkit-linear-gradient(#0a56c5,#0b5fde); /* Safari 5.1 - 6.0 */
+        /*background: -o-linear-gradient(#0a56c5,#0b5fde); /* Opera 11.1 - 12.0 */*/
+        /*background: -moz-linear-gradient(#0a56c5,#0b5fde); /* Firefox 3.6 - 15 */*/
+        /*background: linear-gradient(#0a56c5,#0b5fde); /* 标准的语法 */*/
+        height: 600px;
+        width: 100%;
+        background-image: url(../images/login/yasuo_image_01.jpg);
+        background-size:100% 100%;
+    }
+    .conter_top{
+        margin-top: 70px;
+    }
+    
+	.image1_goge{
+		/*width: 200px;*/
+		height:60px;
+		margin-left:15%;
+		margin-top: 2.5%;
+	}
+	@media screen and (min-width: 1550px)  { /*意思是当屏幕的宽度大于1300 应用*/
+	   	.image_01{
+			width: 620px;
+			margin-top: 4%;
+			margin-left: 20%;
+		}
+	}
+	@media screen and (max-width:1550px) { /*意思是当屏幕的宽度小于1550px 应用*/
+	   	.image_01{
+			width: 600px;
+			margin-top: 4%;
+			margin-left: 2%;
+		}
+		.form{
+            width:435px;
+            margin-right: 0;
+			margin-top: 4%;
+			height: 470px;
+        }
+        #btn_clean_id{
+		display: none;
+		width: 30px; 
+		position:absolute;
+		left:355px; 
+		top:40px; 
+	}
+	}
+	@media screen and (max-width:1024px) { /*意思是当屏幕的宽度小于1024px 应用*/ 
+	   	.image_01{
+			width: 540px;
+			margin-top: 4%;
+			margin-left: 2%;
+		} 
+		.form{
+            width:99%;
+            margin-right: 0;
+            margin-left: 0; 
+			margin-top: 4%;
+			height: 450px;
+        }
+        .image1_goge { 
+		    margin-left: 25%;
+		    margin-top: 10%;
+		}
+        #btn_clean_id{
+		display: none;
+		width: 30px; 
+		position:absolute;
+		left:85%; 
+		top:40px; 
+	} 
+	}
+	.header{
+		width: 100%;
+	} 
+    screen and (min-width: 600px) and (max-width: 800px){ /*意思是当屏幕的宽度大于600小于800时，应用*/
+	   .form{
+           	margin-right: 10%;
+			margin-top: 4%;
+			height: 500px;
+		}
+	}
+	h3{
+		font-size: 24px;
+		color: #0a56c5;
+	}
+	.span_login{
+		font-size: 24px;
+		color: #999999;
+	}
+	#username_img_id{
+		width: 30px;
+		position: relative;
+		left:10px;
+		top:38px;
+	}
+	#username_id{
+		padding-right:48px;
+		height: 50px;
+		font-size: 20px;
+		color: #0a56c5;
+	}
+	
+	#password_img_id{
+		width: 30px;
+		position: relative; 
+		left:10px;top:38px;
+	}
+	#password_id{
+		height: 50px; 
+		font-size: 20px;
+	}
+	#remember_password_id{
+		color: #999999;
+		/*width: 160px;*/ 
+		margin-top: 20px;
+		font-size: 20px;
+	}
+	#remember_password_img_id{
+		width: 30px;
+		position: relative; 
+		margin: 10px;
+	}
+	#remember_password_input_id{
+		display: none;
+	}
+	#forget_btn{
+		color: #999999; 
+		margin-top: 30px; 
+		margin-right: 5px; 
+		font-size: 20px;
+		position: relative; 
+	}
+	#login_ok{
+		color: #ffffff;
+		background-color: #5677FC;
+		font-size: 20px;
+		height: 50px;
+	}

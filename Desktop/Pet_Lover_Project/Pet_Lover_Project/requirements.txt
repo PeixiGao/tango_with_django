@@ -1,0 +1,10 @@
+APScheduler==3.5.1
+django-cors-headers==3.7.0
+PyJWT==1.6.4
+simplejson
+ipdb==0.13.7
+pyipip==0.1.1
+PYjwt==1.6.4
+data==0.4
+PyMySql
+xlrd

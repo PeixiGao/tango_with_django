@@ -1,0 +1,180 @@
+    body{
+        background-size:cover;
+        font-size: 16px;
+    }
+    /*background: url(../img/2.jpg) no-repeat;*/
+    .form{
+    	
+        background: rgba(255,255,255,1);
+        margin:50px auto;
+    }
+    @media screen and (min-width:600px){
+        .form{
+            width:450px;
+            margin-right: 10%; 
+        }
+    }
+    #btn_clean_id{
+		display: none;
+		width: 30px; 
+		position:absolute;
+		left:370px; 
+		top:40px; 
+	}
+    #login_form{
+        display: block;
+    }
+    .fa{
+        display: inline-block;
+        top: 27px;
+        left: 6px;
+        position: relative;
+        color: #ccc;
+    } 
+     .form-horizontal{
+         padding:20px;
+      }
+    .error{
+        color:red;
+    }
+    #grad_id {
+    	background:#0a56c5;
+        background: -webkit-linear-gradient(#0a56c5,#0b5fde); /* Safari 5.1 - 6.0 */
+        background: -o-linear-gradient(#0a56c5,#0b5fde); /* Opera 11.1 - 12.0 */
+        background: -moz-linear-gradient(#0a56c5,#0b5fde); /* Firefox 3.6 - 15 */
+        background: linear-gradient(#0a56c5,#0b5fde); /* 标准的语法 */
+        height: 600px;
+        width: 100%
+    }
+    .conter_top{
+        margin-top: 70px;
+    }
+    
+	.image1_goge{
+		width: 200px;
+		height:60px;
+		margin-left:15%;
+		margin-top: 2.5%;
+	}
+	@media screen and (min-width: 1550px)  { /*意思是当屏幕的宽度大于1300 应用*/
+	   	.image_01{
+			width: 620px;
+			margin-top: 4%;
+			margin-left: 20%;
+		}
+	}
+	@media screen and (max-width:1550px) { /*意思是当屏幕的宽度小于1550px 应用*/
+	   	.image_01{
+			width: 600px;
+			margin-top: 4%;
+			margin-left: 2%;
+		}
+		.form{
+            width:435px;
+            margin-right: 0;
+			margin-top: 4%; 
+        }
+        #btn_clean_id{
+		display: none;
+		width: 30px; 
+		position:absolute;
+		left:355px; 
+		top:40px; 
+	}
+	}
+	@media screen and (max-width:1350px) { /*意思是当屏幕的宽度小于1350px 应用*/
+	   	.image_01{
+			width: 540px;
+			margin-top: 4%;
+			margin-left: 2%;
+		} 
+		.form{
+            width:420px;
+            margin-right: 0;
+			margin-top: 4%;
+			height: 550px;
+        }
+        #btn_clean_id{
+		display: none;
+		width: 30px; 
+		position:absolute;
+		left:340px; 
+		top:40px; 
+	}
+	}
+	.header{
+		height: 150px;
+	} 
+    screen and (min-width: 600px) and (max-width: 800px){ /*意思是当屏幕的宽度大于600小于800时，应用*/
+	   .form{
+           	margin-right: 10%;
+			margin-top: 4%;
+			height: 500px;
+		}
+	}
+	h3{
+		font-size: 24px;
+		color: #0a56c5;
+	}
+	.span_login{
+		font-size: 24px;
+		color: #999999;
+	}
+	#username_img_id{
+		width: 30px;
+		position: relative;
+		left:10px;
+		top:38px;
+	}
+	#username_id{
+		padding-left:48px;
+		padding-right:48px;
+		height: 50px;
+		font-size: 20px;
+		color: #0a56c5;
+	}
+	#email_id{
+		padding-left:48px;
+		padding-right:48px;
+		height: 50px;
+		font-size: 20px;
+		color: #0a56c5;
+	}
+	
+	#password_img_id{
+		width: 30px;
+		position: relative; 
+		left:10px;top:38px;
+	}
+	#password_id{
+		padding-left:48px;
+		height: 50px; 
+		font-size: 20px;
+	}
+	 
+	#remember_email_id{
+		height: 50px;
+		color: #999999;
+		width: 180px;  
+		font-size: 20px;
+	}
+	#remember_password_img_id{
+		width: 30px;
+		position: relative; 
+		margin: 10px;
+	}
+	#remember_password_input_id{
+		display: none;
+	}
+	#forget_btn{
+		height: 50px;
+		color: #999999;   
+		font-size: 20px;
+		position: relative; 
+	}
+	#register_ok{
+		color: #ffffff;
+		background-color: blue;
+		font-size: 20px;
+		height: 50px;
+	}
